@@ -9,7 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.ArrayList;
 import java.util.List;
 
-
 @Controller
 public class EmpController {
     private List<Emp> list;
