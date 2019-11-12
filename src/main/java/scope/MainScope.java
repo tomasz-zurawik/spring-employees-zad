@@ -16,5 +16,19 @@ public class MainScope {
 
         System.out.println(scopeExample2.hashCode());
 
+        //Singleton
+
+        System.out.println("=========");
+
+        ScopeExample scopeExample3  = ac.getBean("scopeSingletonExample", ScopeExample.class);
+
+        System.out.println(scopeExample3.hashCode());
+
+        ScopeExample scopeExample4  = ac.getBean("scopeSingletonExample", ScopeExample.class);
+
+        System.out.println(scopeExample4.hashCode());
+
+
+
     }
 }

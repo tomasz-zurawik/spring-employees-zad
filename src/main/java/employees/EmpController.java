@@ -12,6 +12,14 @@ import java.util.List;
 
 @Controller
 public class EmpController {
+    private List<Emp> list;
+
+    public EmpController() {
+        list = new ArrayList<Emp>();
+        list.add(new Emp(1,"Jakub",35000f,"Trener"));
+        list.add(new Emp(2,"Adam",25000f,"Siatkarz"));
+        list.add(new Emp(3,"Robert",55000f,"YouTuber"));
+    }
 
     @RequestMapping("/empform")
     public ModelAndView showform(){
@@ -20,17 +28,14 @@ public class EmpController {
 
     @RequestMapping(value="/save",method = RequestMethod.POST)
     public ModelAndView save(@ModelAttribute("emp") Emp emp){
+        emp.setId(list.size()+1);
+        list.add(emp);
         System.out.println(emp.getName()+" "+emp.getSalary()+" "+emp.getDesignation());
         return new ModelAndView("redirect:/viewemp");
     }
 
     @RequestMapping("/viewemp")
     public ModelAndView viewemp(){
-        List<Emp> list=new ArrayList<Emp>();
-        list.add(new Emp(1,"Jakub",35000f,"Trener"));
-        list.add(new Emp(2,"Adam",25000f,"Siatkarz"));
-        list.add(new Emp(3,"Robert",55000f,"YouTuber"));
-
-        return new ModelAndView("viewemp","list",list);
+        return new ModelAndView("viewemp","list", list);
     }
 }
