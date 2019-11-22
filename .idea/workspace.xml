@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ca0b2d-2c16-4f88-a040-516fafe7e385" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/CRUDStatementSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/SQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/TransactionsSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/Employees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/MainHibernate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/PhoneDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate/Phones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mail/SendEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/employees/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employees/EmpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/empform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/empform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewemp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/employees/EmpController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/employees/EmpController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-11-12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/empform_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/empform_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/viewemp_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/viewemp_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/viewemp_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/viewemp_jsp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,16 +41,69 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CONNECTIS: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CONNECTIS: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CONNECTIS: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Microsoft SQL Server - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="CONNECTIS: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Phones: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XSLT Stylesheet" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Jakub\IdeaProjects\spring\spring_employees_with_bd\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -32,20 +113,31 @@
     </option>
   </component>
   <component name="ProjectId" id="1Sz4UPTke9cKxKpuYjXtOZaiLaM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/database" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jakub\Desktop\ideaproject cz 2\mywebapp\src\main\webapp" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hibernate" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jakub\IdeaProjects\spring\spring_employees_with_bd\src\main\java\database" />
       <recent name="C:\Users\Jakub\Desktop\ideaproject cz 2\mywebapp\src\main\webapp\WEB-INF" />
     </key>
   </component>
@@ -61,13 +153,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.mywebapp [tomcat7:run]">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.Main" />
+      <module name="mywebapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainHibernate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate.MainHibernate" />
+      <module name="mywebapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scope.MainScope" />
       <module name="mywebapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mail.SendEmail" />
+      <module name="mywebapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,8 +260,18 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainHibernate" />
+      <item itemvalue="Application.MainScope" />
+      <item itemvalue="Maven.mywebapp [tomcat7:run]" />
+      <item itemvalue="Application.SendEmail" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainHibernate" />
+        <item itemvalue="Application.SendEmail" />
         <item itemvalue="Application.MainScope" />
       </list>
     </recent_temporary>
@@ -145,8 +286,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572553105224</updated>
+      <workItem from="1574184346247" duration="612000" />
+      <workItem from="1574196685645" duration="11503000" />
+      <workItem from="1574273923972" duration="2203000" />
+      <workItem from="1574276191621" duration="5788000" />
+      <workItem from="1574358517012" duration="6516000" />
+      <workItem from="1574424383172" duration="4269000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
@@ -156,7 +306,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
